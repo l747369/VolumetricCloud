@@ -39,3 +39,46 @@
 # 相关链接
 1. VolumetricClouds开发者：https://www.artstation.com/artwork/GXnrvV<br>
 2. 干冰制作教程：https://zhuanlan.zhihu.com/p/107016039
+
+----------------------------------------------------------------------------------------
+# Volume Cloud
+These are two volumetric cloud systems.
+
+
+## Cloud Type
+### 1. Blueprint XinixCloudBP <br>
+This is a volumetric cloud based on a highly foggy system, developed from the beginning. <br>
+####feature
+1. Look closely without noise.
+2. The concentration can be controlled by the volume fog system, or directly by the material.
+3. Because the volume fog system is used, the volume of fog can be adjusted for the visible distance.
+4. There is no classification chart, and the shape of the cloud is not good-looking.
+
+### 2. Blueprint VolumemetricClouds <br>
+This is a volume cloud based on Shader, developed from a big Russian. <br>
+####feature
+1. Look closely at the noise (noise has been eliminated, but now the cloud has a harder border after looking closer, please download the original version in related link 1).
+2. Not affected by high fog.
+3. Very beautiful.
+
+
+## How to use it in your project?
+You can use one of XinixCloudBP or VolumemetricClouds or use them together.
+### 1. Using Blueprint XinixCloudBP
+1. Migrate XinixClouds / XinixCloudBP in UE4 to your project.
+2. Place XinixCloudBP on the map.
+2. Place height fog (ExponentialHeightFog) on ​​the map.
+3. Deflect the volume fog (Volgmetric Fog) of this height fog.
+4. Increase the visible distance (line of sight) of the volume fog, you can adjust it to 300000.0 to see the effect.
+### 2. Using Blueprint VolumemetricClouds
+1. Grafting VolumetricClouds / VolumetricClouds.
+2. Place VolumetricClouds on the map.
+
+## do it
+1. Add fractal processing to the material of XinixCloudBP
+#protocol
+This system complies with the MIT agreement.
+
+#Related Links
+1. VolumetricClouds developer: https://www.artstation.com/artwork/GXnrvV <br>
+2. Dry ice making tutorial: https://zhuanlan.zhihu.com/p/107016039
