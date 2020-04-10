@@ -47,7 +47,7 @@ These are two volumetric cloud systems.
 
 ## Cloud Type
 ### 1. Blueprint XinixCloudBP <br>
-This is a volumetric cloud based on a highly foggy system, developed from the beginning. <br>
+This is a volumetric cloud based on a highly foggy system, developed by me. <br>
 ####feature
 1. Look closely without noise.
 2. The concentration can be controlled by the volume fog system, or directly by the material.
@@ -74,9 +74,9 @@ You can use one of XinixCloudBP or VolumemetricClouds or use them together.
 1. Grafting VolumetricClouds / VolumetricClouds.
 2. Place VolumetricClouds on the map.
 
-## do it
+## TODO
 1. Add fractal processing to the material of XinixCloudBP
-#protocol
+# License
 This system complies with the MIT agreement.
 
 #Related Links
