@@ -34,7 +34,7 @@
 ## TODO
 1.XinixCloudBP的材质添加分形处理
 # 协议
-本系统遵循MIT协议。你可以应用于任何商业或非商业性项目，无需著名。
+本系统遵循MIT协议。
 
 # 相关链接
 1. VolumetricClouds开发者：https://www.artstation.com/artwork/GXnrvV<br>
